@@ -25,12 +25,14 @@
     
     /*candidatos a remoção*/
     vertical-align: top;
-    margin: 4px 2px;
-    border: 3px solid #525252;
+    margin: 2px 0px;
+    border: 3px solid transparent;
 }
 
 .cell:hover, .chip:hover{
-    background-color: #9abbc5;
+    /*background-color: #9abbc5;*/
+    /* box-shadow: 5px 10px 10px black; */
+    border-color: blaCK;
 }
 
 .cell .cell-text{
@@ -43,7 +45,7 @@
 }
 
 .row .start{
-    background-color: greenyellow;
+    background-color: gray;
 }
 
 .row .placeholder{
@@ -75,19 +77,20 @@
     margin: 2px;
 }
 
-.cards{
+.categories{
     float: right;
     width: 280px;
     text-align: center;
 }
 
-.card{
-    border: 2px solid black;
+.category{
+    border: 2px solid transparent;
     margin: 2px;
     font-size: 20px;
+    width: 100%;
 }
-.card:hover{
-    background-color: darkseagreen;
+.category:hover{
+    border-color: black;
 }
 
 
@@ -111,4 +114,28 @@
 }
 .variedades{
     background-color: #e4e4af;
+}
+
+/*PERGUNTA*/
+.question{
+    background-color: #b0c4ce;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 185px;
+    left: 225px;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.question-alternatives{
+    list-style-type: lower-alpha;
+}
+
+.question-alternatives li{
+    border: 1px solid transparent;
+}
+
+.question-alternatives li:hover{
+    border-color: black;
 }

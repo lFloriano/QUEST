@@ -1,0 +1,114 @@
+.game-content{
+    width: fit-content;
+    height: 80%;
+    margin: 0 auto;;
+}
+
+.game-content .not-map{
+    margin-top: 10px;
+}
+
+.banner{
+    text-align: center;
+    margin: 0px;
+}
+.row{
+    width: fit-content;
+}
+
+.row .cell{
+    width: 80px;
+    height: 80px;   
+    background-color:#1c9aa0;
+    display: inline-block;
+    text-align: center;
+    
+    /*candidatos a remoção*/
+    vertical-align: top;
+    margin: 4px 2px;
+    border: 3px solid #525252;
+}
+
+.cell:hover, .chip:hover{
+    background-color: #9abbc5;
+}
+
+.cell .cell-text{
+    position: relative;
+    top: 35%;
+}
+
+.row .finish{
+    background-color: gray;
+}
+
+.row .start{
+    background-color: greenyellow;
+}
+
+.row .placeholder{
+    visibility: hidden;
+}
+
+.chips{
+    margin: 10px;
+}
+
+.chip{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background-color: #1e718a;
+    border: 3px solid #525252;
+    border-radius: 50%;
+    font-size: 32px;
+    margin: 2px;
+}
+
+.chip .chip-text{
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+.title{
+    margin: 2px;
+}
+
+.cards{
+    float: right;
+    width: 280px;
+    text-align: center;
+}
+
+.card{
+    border: 2px solid black;
+    margin: 2px;
+    font-size: 20px;
+}
+.card:hover{
+    background-color: darkseagreen;
+}
+
+
+/*CATEGORIAS*/
+.cienciaTecnologia{
+    background-color: #0b5e98;
+}
+
+.mundo{
+    background-color: #87c709;
+}
+.arteEntretenimento{
+    background-color: #e4e447;
+}
+.sociedade{
+    background-color: #ea2828;
+}
+
+.esportelazer{
+    background-color: #343fbf;
+}
+.variedades{
+    background-color: #e4e4af;
+}

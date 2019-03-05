@@ -1,11 +1,15 @@
 .game-content{
     width: fit-content;
     height: 80%;
-    margin: 0 auto;;
+    margin: 0 auto;
 }
 
 .game-content .not-map{
     margin-top: 10px;
+}
+
+.map{
+    position: relative;
 }
 
 .banner{
@@ -124,7 +128,7 @@
     position: absolute;
     top: 185px;
     left: 225px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 0 10px;
 }
 
@@ -138,4 +142,19 @@
 
 .question-alternatives li:hover{
     border-color: black;
+}
+
+
+/*Coisas do jogador*/
+.player-avatar{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border: 1px solid black;
+    bottom: 30px;
+    right: 300px;
+}
+
+.one{
+    background-color: black;
 }

@@ -1,0 +1,22 @@
+//TALVEZ OS BONECOS POSSAM SER ITENS DE UMA <UL>
+// GUARDAR MAPA PERCORRÍVEL NUM ARRAY??
+
+fluxo:
+    definirCategoria()
+    sortear questao()
+    fazerAposta()
+    responderQuestao() <-- deve marcar questao como sorteada
+------------------------------
+
+inicarTurno()
+    definirCategoria()
+        verificarPosicaoJogador(jogador)
+            if inicio: clicarBotao
+            else: lerDadosCelula()
+    
+    sortearQuestao(categoria)
+        buscarQuestao
+            fazer um $.Load da questao no cartao
+        habilitarAposta() <-- somente fichas disponiveis
+        habilitarAlternativas()
+        responderQuestao(questao, alternativa)
